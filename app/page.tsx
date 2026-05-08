@@ -39,7 +39,7 @@ export default function Home() {
               NCS Course&nbsp;1/92 Association
             </h1>
             <p className="mt-3 text-lg sm:text-xl text-green-200 font-medium">
-              Nigerian Customs Service &mdash; Batch 1992
+              Nigeria Customs Service &mdash; Batch 1992
             </p>
           </div>
 
@@ -73,7 +73,7 @@ export default function Home() {
             {
               icon: "🇳🇬",
               title: "Our Heritage",
-              body: "Trained in 1992, Course 1/92 represents a distinguished cohort in the history of the Nigerian Customs Service.",
+              body: "Trained in 1992, Course 1/92 represents a distinguished cohort in the history of the Nigeria Customs Service.",
             },
             {
               icon: "🤝",
@@ -132,7 +132,7 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="bg-green-900 text-green-200 py-10 text-center text-sm">
         <p className="font-semibold text-white text-base">NCS Course 1/92 Association</p>
-        <p className="mt-1">Nigerian Customs Service</p>
+        <p className="mt-1">Nigeria Customs Service</p>
         <p className="mt-4 text-xs text-green-500">
           &copy; {new Date().getFullYear()} NCS Course 1/92 Association. All rights reserved.
         </p>
