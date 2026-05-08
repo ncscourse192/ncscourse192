@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   const board = [
     { rank: "DCG", name: "Caroline Niagwan" },
@@ -21,12 +23,16 @@ export default function Home() {
         <span className="absolute -bottom-16 -right-16 w-72 h-72 rounded-full bg-yellow-400/10" />
 
         <div className="relative mx-auto max-w-5xl px-6 py-20 flex flex-col items-center text-center gap-8">
-          {/* dummy logo */}
-          <div className="flex items-center justify-center w-28 h-28 rounded-full bg-yellow-400 shadow-lg ring-4 ring-white/30 shrink-0">
-            <span className="text-4xl font-extrabold text-green-900 tracking-tight leading-none">
-              NCS
-            </span>
-          </div>
+          {/* logo */}
+          <Image
+            src="/logo2.png"
+            alt="NCS Course 1/92 Association logo"
+            width={220}
+            height={260}
+            className="object-contain drop-shadow-xl"
+            quality={100}
+            priority
+          />
 
           <div>
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
@@ -38,7 +44,7 @@ export default function Home() {
           </div>
 
           <p className="max-w-2xl text-base sm:text-lg text-gray-300 leading-relaxed">
-            A fellowship of dedicated officers recruited in&nbsp;1991 and trained
+            An association of dedicated officers who were trained
             in&nbsp;1992, bound by service, integrity, and a shared commitment to
             the economic growth of Nigeria.
           </p>
@@ -67,7 +73,7 @@ export default function Home() {
             {
               icon: "🇳🇬",
               title: "Our Heritage",
-              body: "Recruited in 1991 and formally trained in 1992, Course 1/92 represents a distinguished cohort in the history of the Nigerian Customs Service.",
+              body: "Trained in 1992, Course 1/92 represents a distinguished cohort in the history of the Nigerian Customs Service.",
             },
             {
               icon: "🤝",
@@ -77,7 +83,7 @@ export default function Home() {
             {
               icon: "🌟",
               title: "Our Purpose",
-              body: "This association serves as a platform for fellowship, mentorship, and continued service among retired and serving members of our batch.",
+              body: "This association serves to foster social interaction and unity, to offer all forms of assistance empowering members of the association.",
             },
           ].map((card) => (
             <div
@@ -99,7 +105,7 @@ export default function Home() {
             Board of Trustees
           </h2>
           <p className="text-center text-gray-500 mb-12 text-sm">
-            Elected leadership guiding the association
+            Leadership guiding the association
           </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -126,7 +132,7 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="bg-green-900 text-green-200 py-10 text-center text-sm">
         <p className="font-semibold text-white text-base">NCS Course 1/92 Association</p>
-        <p className="mt-1">Nigerian Customs Service &mdash; Est. 1992</p>
+        <p className="mt-1">Nigerian Customs Service</p>
         <p className="mt-4 text-xs text-green-500">
           &copy; {new Date().getFullYear()} NCS Course 1/92 Association. All rights reserved.
         </p>
