@@ -39,7 +39,7 @@ export default function Home() {
               NCS Course&nbsp;1/92 Association
             </h1>
             <p className="mt-3 text-lg sm:text-xl text-green-200 font-medium">
-              Nigeria Customs Service &mdash; Batch 1992
+              Nigeria Customs Service &mdash; 1992 Batch
             </p>
           </div>
 
