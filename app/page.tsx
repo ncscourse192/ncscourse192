@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   const board = [
-    { rank: "DCG", name: "Caroline Niagwan" },
+    { rank: "DCG", name: "Caroline Niagwan fsi" },
     { rank: "DCG", name: "CC Dim" },
     { rank: "DCG", name: "Tijjani Abe fsi PhD" },
     { rank: "DCG", name: "Timi Bomodi" },
     { rank: "ACG", name: "Babatunde Olomu fsi PhD" },
     { rank: "CC",  name: "Abdulmumeen Njobdi" },
-    { rank: "DCG", name: "Dera Nnadi" },
-    { rank: "DCG", name: "Musa Omale PhD" },
+    { rank: "DCG", name: "Dera Nnadi mni" },
+    { rank: "DCG", name: "Musa Omale mni PhD" },
     { rank: "CC",  name: "Emmanuel Oshoba" },
     { rank: "CC",  name: "GI Aliyu" },
     { rank: "DC",  name: "JR Ayodele", role: "Secretary" },
